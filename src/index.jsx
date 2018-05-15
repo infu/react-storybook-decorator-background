@@ -4,15 +4,10 @@ import React from 'react';
 
 var style = {
   wrapper: {
-    position: 'absolute',
-    top: 0,
-    bottom: 0,
-    right: 0,
-    left: 0,
     transition: 'background-color 0.25s ease-in-out'
   },
   swatches: {
-    position: 'absolute',
+    position: 'fixed',
     overflow: 'auto',
     margin: 0,
     bottom: '10px',
